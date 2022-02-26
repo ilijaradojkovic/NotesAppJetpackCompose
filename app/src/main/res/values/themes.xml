@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyNoteApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/Primary</item>
+        <item name="colorPrimaryDark">@color/Primary_Dark</item>
+        <item name="colorPrimaryVariant">@color/Primary_Light</item>
+        <item name="colorOnPrimary">@color/White</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/Secondary</item>
+        <item name="colorSecondaryVariant">@color/Secondary_Light</item>
+        <item name="colorOnSecondary">@color/Black</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.MyNoteApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.MyNoteApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.MyNoteApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
